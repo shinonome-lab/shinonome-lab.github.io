@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "git pages&jekyll for beginers"
+date:   2015-03-11 20:39:10
+categories: jekyll update
+---
+
+
+---
+* _前言：本人是小白一枚，因羡慕极客便东施效颦想搭一个基于gitpages的blog，其优劣本人作为门外汉根本无从判断，但极客推崇的一定是好东西，便从网上索引教程操练了起来，过程颇呕心沥血。所以大概总结一下过程，巩固自身兼造福后人。_
+* _教程基于**OS X**平台_
+
+---
+###部署git
+* [安装git](http://git-scm.com/book/zh/v1/起步-安装-Git "中文教程")
+* ssh
+* 账号
+
+
+
+###部署jekyll
