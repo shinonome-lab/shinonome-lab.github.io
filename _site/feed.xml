@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Mar 2015 20:58:51 +0800</pubDate>
-    <lastBuildDate>Tue, 10 Mar 2015 20:58:51 +0800</lastBuildDate>
+    <pubDate>Wed, 11 Mar 2015 00:54:27 +0800</pubDate>
+    <lastBuildDate>Wed, 11 Mar 2015 00:54:27 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -19,8 +19,40 @@
 &lt;/ul&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;###部署git
-###部署jekyll&lt;/p&gt;
+
+&lt;h3 id=&quot;git&quot;&gt;部署git&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://git-scm.com/book/zh/v1/起步-安装-Git&quot; title=&quot;中文教程&quot;&gt;安装git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ssh&lt;/li&gt;
+  &lt;li&gt;账号&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;jekyll&quot;&gt;部署jekyll&lt;/h3&gt;
+
+&lt;h3 id=&quot;github&quot;&gt;github同步命令&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;git init&lt;/code&gt;创建git&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.worldhello.net/gotgithub/03-project-hosting/010-new-project.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git add filename&lt;/code&gt;添加文件&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git commit -m &quot;comments&quot;&lt;/code&gt; 云端的注释？&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git commit -a -m &quot;A file was deleted&quot;&lt;/code&gt;&lt;a href=&quot;http://stackoverflow.com/questions/9701238/git-how-delete-file-from-remote-repository&quot;&gt;这个玩儿意&lt;/a&gt;可以读取所有变化，push一下和云端就完全一样了&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git push origin master&lt;/code&gt;推送&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;FAQ:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://ruby-china.org/topics/13509&quot;&gt;如何删除 GitHub 上 repository 里的某个文件？&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 12 Mar 2015 04:39:10 +0800</pubDate>
         <link>http://yourdomain.com/jekyll/update/2015/03/12/jekyll.html</link>
