@@ -11,7 +11,9 @@ categories: jekyll update
 * _教程基于**OS X**平台_
 
 ---
+
 ###部署git
+
 * [安装git](http://git-scm.com/book/zh/v1/起步-安装-Git "中文教程")
 * ssh
 * 账号
@@ -19,3 +21,23 @@ categories: jekyll update
 
 
 ###部署jekyll
+
+
+
+###github同步命令
+
+`git init`创建git
+
+[教程](http://www.worldhello.net/gotgithub/03-project-hosting/010-new-project.html)
+
+`git add filename`添加文件
+
+`git commit -m "comments"` 云端的注释？
+
+`git commit -a -m "A file was deleted"`[这个玩儿意](http://stackoverflow.com/questions/9701238/git-how-delete-file-from-remote-repository)可以读取所有变化，push一下和云端就完全一样了
+
+`git push origin master`推送
+
+>FAQ:
+
+>* [如何删除 GitHub 上 repository 里的某个文件？](https://ruby-china.org/topics/13509)
