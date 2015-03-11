@@ -22,7 +22,7 @@ categories: jekyll update
 
 ###部署jekyll
 
-
+`jekyll build`生成_site
 
 ###github同步命令
 
@@ -41,3 +41,13 @@ categories: jekyll update
 >FAQ:
 
 >* [如何删除 GitHub 上 repository 里的某个文件？](https://ruby-china.org/topics/13509)
+
+###开始写博客
+流程
+
+* markdown写文章文件名按格式保存* 
+* `jekyll build`[^h]
+[^h]:全部文章都要生成html一遍，遂用不了多长时间，强迫症表示蛋疼
+* git push[^g]
+[^g]:参见git同步
+
