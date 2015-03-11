@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Mar 2015 15:59:10 +0800</pubDate>
-    <lastBuildDate>Wed, 11 Mar 2015 15:59:10 +0800</lastBuildDate>
+    <pubDate>Wed, 11 Mar 2015 21:04:07 +0800</pubDate>
+    <lastBuildDate>Wed, 11 Mar 2015 21:04:07 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,9 +28,33 @@
   &lt;li&gt;账号&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;jekyll&quot;&gt;部署jekyll&lt;/h3&gt;
+&lt;p&gt;安装jekyll需要ruby，Mac自带，&lt;code&gt;ruby -v&lt;/code&gt;查看版本&lt;/p&gt;
+
+&lt;p&gt;通过RubyGems安装jekyll，命令&lt;code&gt;gem install jekyll&lt;/code&gt;。
+注意国内由于网络问题可能失败，因此执行安装前建议按下述替换&lt;a href=&quot;http://ruby.taobao.org&quot;&gt;本地源&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;```
+$ gem sources –remove https://rubygems.org/
+$ gem sources -a https://ruby.taobao.org/
+$ gem sources -l
+&lt;em&gt;** CURRENT SOURCES **&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;https://ruby.taobao.org
+# 确保只有 ruby.taobao.org
+$ gem install jekyll
+```
+如果遇到不能写入的问题安装前执行&lt;code&gt;sudo -s&lt;/code&gt;,输入密码再执行安装命令。&lt;/p&gt;
+
+&lt;p&gt;执行&lt;code&gt;jekyll new blog&lt;/code&gt;会在当前文件夹按照默认模版生成博客&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;jekyll build&lt;/code&gt;生成_site&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;jekyll serve&lt;/code&gt;会在本地生成并运行网站，访问地址&lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://127.0.0.1:4000&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;github&quot;&gt;github同步命令&lt;/h3&gt;
 
@@ -42,7 +66,7 @@
 
 &lt;p&gt;&lt;code&gt;git commit -m &quot;comments&quot;&lt;/code&gt; 云端的注释？&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;git commit -a -m &quot;A file was deleted&quot;&lt;/code&gt;&lt;a href=&quot;http://stackoverflow.com/questions/9701238/git-how-delete-file-from-remote-repository&quot;&gt;这个玩儿意&lt;/a&gt;可以读取所有变化，push一下和云端就完全一样了&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git commit -a -m &quot;comments&quot;&lt;/code&gt;&lt;a href=&quot;http://stackoverflow.com/questions/9701238/git-how-delete-file-from-remote-repository&quot;&gt;这个玩儿意&lt;/a&gt;可以读取所有变化，push一下和云端就完全一样了&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;git push origin master&lt;/code&gt;推送&lt;/p&gt;
 
@@ -101,7 +125,7 @@
 
 &lt;p&gt;&lt;em&gt;普林斯顿大学教授马文.布莱斯勒(Marvin Bressler)在我们的一次长谈中指出：“你想知道是什么使圣贤区别于普通的聪明人么？圣贤都是刺猬。” 弗洛伊德(Freud)和他的潜意识，达尔文（Darwin）和他的物竞天择，马克思(Marx)和他的阶级斗争，爱因斯坦(Einstein)和他的相对论，亚当.斯密(Adam Smith)和他的劳动分工，这些人和他们的学说都是“刺猬”。他们着眼于简化复杂的世界。“那些真正留下浓墨重彩的人”布莱斯勒说，“都有一大群人在后面吆喝：‘这想法不错，不过过头了吧！’”&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;吉姆.科林斯(Jim Collins)和马文.布莱斯勒谈话录,2000年10月&lt;/p&gt;
+&lt;p&gt;——吉姆.科林斯(Jim Collins)和马文.布莱斯勒谈话录,2000年10月&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;那些成功甚至伟大的企业家们都在不同程度上是刺猬。他们以刺猬的本性，朝着他们公司的“刺猬观念”奋斗。而那些与之相对并不成功的企业领导者则更像狐狸。他们永远不具备“刺猬观念”带来的目标明确的优势，取而代之的情况就是一盘散沙，各怀异志，青黄不接。&lt;/em&gt;&lt;/p&gt;
 

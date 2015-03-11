@@ -18,11 +18,35 @@ categories: jekyll update
 * ssh
 * 账号
 
-
+---
 
 ###部署jekyll
+安装jekyll需要ruby，Mac自带，`ruby -v`查看版本
+
+通过RubyGems安装jekyll，命令`gem install jekyll`。
+注意国内由于网络问题可能失败，因此执行安装前建议按下述替换[本地源](http://ruby.taobao.org)
+
+```
+$ gem sources --remove https://rubygems.org/
+$ gem sources -a https://ruby.taobao.org/
+$ gem sources -l
+*** CURRENT SOURCES ***
+
+https://ruby.taobao.org
+# 确保只有 ruby.taobao.org
+$ gem install jekyll
+```
+如果遇到不能写入的问题安装前执行`sudo -s`,输入密码再执行安装命令。
+
+执行`jekyll new blog`会在当前文件夹按照默认模版生成博客
 
 `jekyll build`生成_site
+
+`jekyll serve`会在本地生成并运行网站，访问地址[http://127.0.0.1:4000](http://127.0.0.1:4000)
+
+
+
+---
 
 ###github同步命令
 
@@ -34,7 +58,7 @@ categories: jekyll update
 
 `git commit -m "comments"` 云端的注释？
 
-`git commit -a -m "A file was deleted"`[这个玩儿意](http://stackoverflow.com/questions/9701238/git-how-delete-file-from-remote-repository)可以读取所有变化，push一下和云端就完全一样了
+`git commit -a -m "comments"`[这个玩儿意](http://stackoverflow.com/questions/9701238/git-how-delete-file-from-remote-repository)可以读取所有变化，push一下和云端就完全一样了
 
 `git push origin master`推送
 
