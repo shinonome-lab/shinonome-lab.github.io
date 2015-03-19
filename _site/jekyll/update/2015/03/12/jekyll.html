@@ -86,17 +86,18 @@
 <p>通过RubyGems安装jekyll，命令<code>gem install jekyll</code>。
 注意国内由于网络问题可能失败，因此执行安装前建议按下述替换<a href="http://ruby.taobao.org">本地源</a></p>
 
-<p>```
+<p>```<br />
 $ gem sources –remove https://rubygems.org/
 $ gem sources -a https://ruby.taobao.org/
 $ gem sources -l
-<em>** CURRENT SOURCES **</em></p>
-
-<p>https://ruby.taobao.org
+ <strong><em>CURRENT SOURCES</em></strong> 
+https://ruby.taobao.org
 # 确保只有 ruby.taobao.org
-$ gem install jekyll
-```
-如果遇到不能写入的问题安装前执行<code>sudo -s</code>,输入密码再执行安装命令。</p>
+$ gem install jekyll</p>
+
+<p>```</p>
+
+<p>如果遇到不能写入的问题安装前执行<code>sudo -s</code>,输入密码再执行安装命令。</p>
 
 <p>执行<code>jekyll new blog</code>会在当前文件夹按照默认模版生成博客</p>
 
@@ -122,9 +123,7 @@ $ gem install jekyll
 
 <blockquote>
   <p>FAQ:</p>
-</blockquote>
 
-<blockquote>
   <ul>
     <li><a href="https://ruby-china.org/topics/13509">如何删除 GitHub 上 repository 里的某个文件？</a></li>
   </ul>
@@ -134,13 +133,25 @@ $ gem install jekyll
 <p>流程</p>
 
 <ul>
-  <li>markdown写文章文件名按格式保存*</li>
-  <li><code>jekyll build</code>[^h]
-[^h]:全部文章都要生成html一遍，遂用不了多长时间，强迫症表示蛋疼</li>
-  <li>git push[^g]
-[^g]:参见git同步</li>
+  <li>markdown写文章文件名按格式保存</li>
+  <li><code>jekyll build</code><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></li>
 </ul>
 
+<ul>
+  <li>git push<sup id="fnref:g"><a href="#fn:g" class="footnote">2</a></sup></li>
+</ul>
+
+<hr />
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>全部文章都要生成html一遍，遂用不了多长时间，强迫症表示蛋疼 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:g">
+      <p>参见git同步 <a href="#fnref:g" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
   </article>
 

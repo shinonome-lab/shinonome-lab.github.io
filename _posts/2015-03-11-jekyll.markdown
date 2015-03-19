@@ -26,16 +26,19 @@ categories: jekyll update
 通过RubyGems安装jekyll，命令`gem install jekyll`。
 注意国内由于网络问题可能失败，因此执行安装前建议按下述替换[本地源](http://ruby.taobao.org)
 
-```
+
+```  
 $ gem sources --remove https://rubygems.org/
 $ gem sources -a https://ruby.taobao.org/
 $ gem sources -l
-*** CURRENT SOURCES ***
-
+ ***CURRENT SOURCES*** 
 https://ruby.taobao.org
 # 确保只有 ruby.taobao.org
 $ gem install jekyll
+
 ```
+
+
 如果遇到不能写入的问题安装前执行`sudo -s`,输入密码再执行安装命令。
 
 执行`jekyll new blog`会在当前文件夹按照默认模版生成博客
@@ -63,15 +66,19 @@ $ gem install jekyll
 `git push origin master`推送
 
 >FAQ:
-
->* [如何删除 GitHub 上 repository 里的某个文件？](https://ruby-china.org/topics/13509)
+>
+* [如何删除 GitHub 上 repository 里的某个文件？](https://ruby-china.org/topics/13509)
 
 ###开始写博客
 流程
 
-* markdown写文章文件名按格式保存* 
-* `jekyll build`[^h]
-[^h]:全部文章都要生成html一遍，遂用不了多长时间，强迫症表示蛋疼
-* git push[^g]
+* markdown写文章文件名按格式保存
+* `jekyll build`[^1]  
+ 
+[^1]:全部文章都要生成html一遍，遂用不了多长时间，强迫症表示蛋疼
+* git push[^g]       
+
 [^g]:参见git同步
 
+
+---
